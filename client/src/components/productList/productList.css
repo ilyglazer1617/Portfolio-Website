@@ -52,4 +52,11 @@
         margin-top: 185px;
     }
 
+    .Allcard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
