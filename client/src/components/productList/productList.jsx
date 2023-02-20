@@ -5,7 +5,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl_texts">
-        <h1 className="pl_title">Create & passion. Its me</h1>
+        <h1 className="pl_title">Create & passion. It's me</h1>
         <p className="pl_desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
           facilis sed, tenetur perferendis a similique error et? Id quae
