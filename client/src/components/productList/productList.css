@@ -33,6 +33,11 @@
     justify-content: space-between;
 }
 
+.videoLink {
+    cursor: pointer;
+    color: rgb(148, 185, 217);
+}
+
 @media screen and (max-width:480px) {
 
     .pl {

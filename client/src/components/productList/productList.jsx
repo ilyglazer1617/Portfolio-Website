@@ -22,6 +22,13 @@ const ProductList = () => {
                 desc={item.desc}
               />
               <p>{item.desc}</p>
+              {item.video ? (
+                <a className="videoLink" href={item.video}>
+                  Click for intro video
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           ))}
         </div>

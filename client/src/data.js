@@ -4,7 +4,16 @@ import resume from "./images/resumeMain.jpg";
 import ping from "./images/pingMain.jpg";
 import course from "./images/courseMain.jpg";
 import calc from "./images/calcMain.jpg";
+import tiny from "./images/tinyPhoto.jpg";
 export const products = [
+  {
+    id: 6,
+    title: "Tiny-Fix",
+    img: tiny,
+    link: "https://github.com/ilyglazer1617/tinyFix/tree/main",
+    desc: "Tiny-Fix is an innovative application that brings together private car owners and garages in a seamless and efficient manner. The app aims to simplify the process of getting car repairs by allowing car owners to post their car problems and receive bids from different garages just like in an auction. This way, car owners can compare different bids and choose the best offer that suits their budget and requirements. Tiny-Fix not only saves time and money but also helps in connecting car owners with reliable and trustworthy garages. The app is easy to use and provides a convenient solution for car owners who are looking for quick and efficient car repairs.",
+    video: "https://clipchamp.com/watch/8FPUAGxoM9k",
+  },
   {
     id: 1,
     title: "Social media App",
@@ -41,7 +50,7 @@ export const products = [
     desc: "A basic maze game with conditions otherwise disqualifying and returning to the beginning ",
   },
   {
-    id: 4,
+    id: 5,
     title: "Calculator (Vanilla JS)",
     img: calc,
     link: "https://github.com/ilyglazer1617/Calculator",
