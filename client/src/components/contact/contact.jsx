@@ -52,10 +52,10 @@ const Contact = () => {
         </div>
         <div className="cRight">
           <p className="c_desc">
-            <b>
+            <>
               I'd be happy to work with you! Provide your contact info below and
               I'll reach out.
-            </b>
+            </>
           </p>
           <form ref={formRef} onSubmit={handelSubmit}>
             <input type="text" placeholder="Name" name="userName" />
